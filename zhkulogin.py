@@ -55,8 +55,8 @@ class zklogin():
                 self.Md5__Code = ''
                 return
     def Try_Login_(self):
-        self.account='201810224331'
-        self.pwd='yujiecong1'
+        self.account=''#your 账号
+        self.pwd=''#your 密码
         login_headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
             'Host': 'jw.zhku.edu.cn',
