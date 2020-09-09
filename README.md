@@ -19,13 +19,13 @@ __其实还是有很多很多缺陷！！__
 但是我懒得弄了，懒得维护了哈哈哈
 主要在控制台的效果是这样的
 ***
-![image](https://github.com/image/效果.png)
+![image](https://github.com/yujiecong/zhku-spider/image/效果.png)
 
 可以拿到课表
-![image](https://github.com/image/20200.jpg)
+![image](https://github.com/yujiecong/zhku-spider/image/20200.jpg)
 可以拿到成绩,但是在这里的图片命名是有问题的。
 不妨碍观看就好，嘻嘻懒得搞了
-![image](https://github.com/image/第6个学期的成绩.jpg)
+![image](https://github.com/yujiecong/zhku-spider/image/第6个学期的成绩.jpg)
 
 么么哒爱你们！！
 
@@ -39,5 +39,5 @@ __其实还是有很多很多缺陷！！__
 
 ## Maintainers
 ___电子181余杰聪___
-##### END
+# END
 ___一切一切~~~仅供学习使用[DOGE]___
