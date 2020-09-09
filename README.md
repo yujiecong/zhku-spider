@@ -19,14 +19,14 @@ __其实还是有很多很多缺陷！！__
 但是我懒得弄了，懒得维护了哈哈哈
 主要在控制台的效果是这样的
 ***
-![image](https://github.com/yujiecong/zhku-spider/tree/master/image/效果.png)
+![image](image/效果.png)
 ***
 可以拿到课表
-![image](https://github.com/yujiecong/zhku-spider/tree/master/image/20200.jpg)
+![image](image/20200.jpg)
 ***
 可以拿到成绩,但是在这里的图片命名是有问题的。
 不妨碍观看就好，嘻嘻懒得搞了
-![image](https://github.com/yujiecong/zhku-spider/tree/master/image/第6个学期的成绩.jpg)
+![image](image/第6个学期的成绩.jpg)
 ***
 么么哒爱你们！！
 
