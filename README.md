@@ -1,7 +1,7 @@
 # zhku-spider
 ## Background
 __学了点爬虫，于是就找来了教务网作为试验品，克服了许多困难，写出了个这个笨比玩意__
-> 我能力有限也不是计算机出身，野路子代码多了去了，又不规范，知道个位都是大神，所以别骂了别骂了。。呜呜呜
+> 我能力有限也不是计算机出身，野路子代码多了去了，又不规范，知道各位都是大神，所以别骂了别骂了。。呜呜呜
 ## Requirement
 ```
 import requests
@@ -14,19 +14,20 @@ import hashlib
 import time
 import bs4
 ```
-##demo
+## Demo
 __其实还是有很多很多缺陷！！__
 但是我懒得弄了，懒得维护了哈哈哈
 主要在控制台的效果是这样的
 ***
-![image](https://github.com/yujiecong/zhku-spider/image/效果.png)
-
+![image](https://github.com/yujiecong/zhku-spider/tree/master/image/效果.png)
+***
 可以拿到课表
-![image](https://github.com/yujiecong/zhku-spider/image/20200.jpg)
+![image](https://github.com/yujiecong/zhku-spider/tree/master/image/20200.jpg)
+***
 可以拿到成绩,但是在这里的图片命名是有问题的。
 不妨碍观看就好，嘻嘻懒得搞了
-![image](https://github.com/yujiecong/zhku-spider/image/第6个学期的成绩.jpg)
-
+![image](https://github.com/yujiecong/zhku-spider/tree/master/image/第6个学期的成绩.jpg)
+***
 么么哒爱你们！！
 
 
@@ -40,4 +41,4 @@ __其实还是有很多很多缺陷！！__
 ## Maintainers
 ___电子181余杰聪___
 # END
-___一切一切~~~仅供学习使用[DOGE]___
+___一切一切仅供学习使用[DOGE]___
