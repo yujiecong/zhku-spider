@@ -9,7 +9,7 @@ import time
 import bs4
 class zk_spider():
     def __init__(self):
-        self.__Login()
+        self.Login()
         self.Main()
         #主循环
 
@@ -42,7 +42,7 @@ class zk_spider():
             elif Input == '5':
                 self.withdraw_course(options_seme, year)
             elif Input == '6':
-                self.__Login(hot=False)
+                self.Login(hot=False)
     def get_cookies(self,mode):
         with open('cookies.cok', 'w')as f:
             while 1:
@@ -58,9 +58,11 @@ class zk_spider():
                     break
             f.write(str(self.zk_user.home_cookies))
             print('登录cookie已保存')
-    def __Login(self,hot=True):
+    def Login(self,hot=True):
         #这里目前不完善
-        select_mode = input('默认为自动登录(通过百度ocr识别验证码)，输入default手动登录') if not '' else 'auto'
+        select_mode = input('默认为自动登录(通过百度ocr识别验证码)，输入default手动登录')
+        select_mode='auto' if select_mode=='' else 'default'
+
         if os.path.exists('cookies.cok') and hot:
             print('检测到本地已有cookies，开始使用本地cookies')
             self.zk_user = zhkulogin.zklogin()
