@@ -29,6 +29,7 @@ class zklogin():
 
     def identify_code(self,select_mode):
         # //一天限量200次我佛了
+        print(select_mode)
         if select_mode=='default':
             os.system(self.Code_path)
             code = input('请输入验证码')
