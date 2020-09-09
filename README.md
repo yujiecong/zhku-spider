@@ -1,6 +1,7 @@
 # zhku-spider
 ## Background
 __学了点爬虫，于是就找来了教务网作为试验品，克服了许多困难，写出了个这个笨比玩意__
+> 我能力有限也不是计算机出身，野路子代码多了去了，又不规范，知道个位都是大神，所以别骂了别骂了。。呜呜呜
 ## Requirement
 ```
 import requests
@@ -13,6 +14,22 @@ import hashlib
 import time
 import bs4
 ```
+##demo
+__其实还是有很多很多缺陷！！__
+但是我懒得弄了，懒得维护了哈哈哈
+主要在控制台的效果是这样的
+***
+![image](https://github.com/image/效果.png)
+
+可以拿到课表
+![image](https://github.com/image/20200.jpg)
+可以拿到成绩,但是在这里的图片命名是有问题的。
+不妨碍观看就好，嘻嘻懒得搞了
+![image](https://github.com/image/第6个学期的成绩.jpg)
+
+么么哒爱你们！！
+
+
 ## Usage
 目前稳定的功能是获取课表和获取成绩，所谓的抢课还不是完全稳定，之前试过但由于参数太多，可能换个学期参数不一样，所以需要继续观察。
 
@@ -20,7 +37,7 @@ import bs4
 
 就这点了，欢迎仲恺的同学发现并且pr！！
 
-我先升级一下代码规范，自己写的跟shit一样[doge]
 ## Maintainers
 ___电子181余杰聪___
-
+##### END
+___一切一切~~~仅供学习使用[DOGE]___
