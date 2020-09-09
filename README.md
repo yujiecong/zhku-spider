@@ -1,8 +1,8 @@
 # zhku-spider
-##Background
+## Background
 ***
 __在宿舍打游戏闲得无聊就研究了一下，非常粗鄙__
-##Requirement
+## Requirement
 ***
 ```
 import requests
@@ -15,7 +15,7 @@ import hashlib
 import time
 import bs4
 ```
-##Usage
+## Usage
 ***
 目前稳定的功能是获取课表和获取成绩，所谓的抢课还不是完全稳定，之前试过但由于参数太多，可能换个学期参数不一样，所以需要继续观察。
 
@@ -25,5 +25,6 @@ import bs4
 
 我先升级一下代码规范，自己写的跟shit一样[doge]
 ##Maintainers
+***
 ___电子181余杰聪___
 
