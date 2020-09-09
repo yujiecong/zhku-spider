@@ -62,10 +62,9 @@ class zk_spider():
         #这里目前不完善
         select_mode = input('默认为自动登录(通过百度ocr识别验证码)，输入default手动登录')
         select_mode='auto' if select_mode=='' else 'default'
-
+        self.zk_user = zhkulogin.zklogin()
         if os.path.exists('cookies.cok') and hot:
             print('检测到本地已有cookies，开始使用本地cookies')
-            self.zk_user = zhkulogin.zklogin()
             with open('cookies.cok','r')as f:
                 fread=f.read()
                 if fread=='':
