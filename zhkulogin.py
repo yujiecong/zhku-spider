@@ -3,6 +3,9 @@ import requests
 import hashlib
 from aip import AipOcr
 class zklogin():
+    def __init__(self):
+        self.account=input('输入你的学号')
+        self.pwd=input('你的密码')
     def Get_login_cookies(self,hot=True):
         self.home_cookies = dict(requests.get(
             url='http://jw.zhku.edu.cn/home.aspx',
@@ -29,7 +32,6 @@ class zklogin():
 
     def identify_code(self,select_mode):
         # //一天限量200次我佛了
-        print(select_mode)
         if select_mode=='default':
             os.system(self.Code_path)
             code = input('请输入验证码')
@@ -57,12 +59,6 @@ class zklogin():
                 self.Md5__Code = ''
                 return
     def Try_Login_(self):
-
-
-        self.account=input('输入你的学号')
-        self.pwd=input('你的密码')
-
-
         self.Get_pwd_md5(self.pwd)
         login_headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
@@ -112,4 +108,3 @@ class zklogin():
         md55 = hashlib.md5()
         md55.update(md5_.encode('utf8'))
         self.Md5__Code = md55.hexdigest()[0:30].upper()
-t=zklogin()
