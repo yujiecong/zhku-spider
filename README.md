@@ -1,6 +1,6 @@
 # zhku-spider
 ## Background
-__在宿舍打游戏闲得无聊就研究了一下，非常粗鄙__
+__学了点爬虫，于是就找来了教务网作为试验品，克服了许多困难，写出了个这个笨比玩意__
 ## Requirement
 ```
 import requests
